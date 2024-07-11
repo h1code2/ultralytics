@@ -4,8 +4,8 @@ __pycache__/
 *$py.class
 
 # 自定义不上传
-runs
-
+#runs
+original_data
 
 # C extensions
 *.so
