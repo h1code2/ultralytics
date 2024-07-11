@@ -5,8 +5,8 @@ __pycache__/
 
 # 自定义不上传
 runs
-original_data
-datasets
+#original_data
+#datasets
 
 # C extensions
 *.so
