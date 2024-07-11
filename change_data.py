@@ -18,8 +18,8 @@ from ultralytics.data.converter import convert_dota_to_yolo_obb
 def CollateDataset(
         image_dir, label_dir, val_size=0.2, random_state=42
 ):  # image_dir:图片路径  label_dir：标签路径
-    if not os.path.exists("./my_data"):
-        os.makedirs("./my_data")
+    if not os.path.exists("datasets"):
+        os.makedirs("datasets")
 
     images = []
     labels = []
@@ -80,4 +80,4 @@ if __name__ == "__main__":
     source_file = inspect.getsourcefile(convert_dota_to_yolo_obb)
     print("\nconvert_dota_to_yolo_obb 函数所在文件的路径：", source_file)
 
-    convert_dota_to_yolo_obb("./my_data")
+    convert_dota_to_yolo_obb("datasets")
