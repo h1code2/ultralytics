@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# 自定义不上传
-#runs
 original_data
 
 # C extensions

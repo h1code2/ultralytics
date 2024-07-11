@@ -10,7 +10,7 @@ from ultralytics import YOLO
 
 def main():
     model = YOLO("./yolov8-obb.yaml").load("yolov8x-obb.pt")
-    model.train(data="./dota8-obb.yaml", epochs=50, imgsz=640, batch=4, workers=16, device="mps")
+    model.train(data="./dota8-obb.yaml", epochs=50, imgsz=640, batch=4, workers=8, device="mps")
 
 
 if __name__ == "__main__":
