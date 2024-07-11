@@ -80,4 +80,4 @@ if __name__ == "__main__":
     source_file = inspect.getsourcefile(convert_dota_to_yolo_obb)
     print("\nconvert_dota_to_yolo_obb 函数所在文件的路径：", source_file)
 
-    convert_dota_to_yolo_obb(r'/Users/h1code2/PycharmProjects/ultralytics/my_data')
+    convert_dota_to_yolo_obb("./my_data")
