@@ -5,8 +5,7 @@ __pycache__/
 
 # 自定义不上传
 runs
-#original_data
-#datasets
+
 
 # C extensions
 *.so
@@ -143,7 +142,7 @@ dmypy.json
 .pyre/
 
 # datasets and projects
-datasets/
+#datasets/
 runs/
 wandb/
 .DS_Store
