@@ -30,7 +30,7 @@ def CollateDataset(
         label_path = os.path.join(label_dir, label_name)
         # 增加自定义逻辑
         if not Path(label_path).read_text().strip():
-            print(f"图片({image_path})还未标注跳过")
+            # print(f"图片({image_path})还未标注跳过")
             continue
         if not os.path.exists(label_path):
             print("there is no:", label_path)

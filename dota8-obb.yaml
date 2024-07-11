@@ -1,4 +1,4 @@
-path: /Users/h1code2/PycharmProjects/ultralytics/my_data # dataset root dir
+path: ./my_data # dataset root dir
 train: images/train
 val: images/val
 #test: images/test
