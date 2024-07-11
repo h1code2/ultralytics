@@ -1,0 +1,1 @@
+yolo obb train data=dota8-obb.yaml model=yolov8n-obb.yaml pretrained=yolov8x-obb.pt epochs=250 imgsz=640 workers=8 cache=False device=mps
