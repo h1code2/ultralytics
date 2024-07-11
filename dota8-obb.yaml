@@ -1,4 +1,4 @@
-path: ./my_data # dataset root dir
+path: ./datasets/my_data # dataset root dir
 train: images/train
 val: images/val
 #test: images/test

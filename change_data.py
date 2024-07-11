@@ -41,8 +41,8 @@ def CollateDataset(
         images, labels, test_size=val_size, random_state=random_state
     )
 
-    destination_images = "./my_data/images"
-    destination_labels = "./my_data/labels"
+    destination_images = "./datasets/images"
+    destination_labels = "./datasets/labels"
     os.makedirs(os.path.join(destination_images, "train"), exist_ok=True)
     os.makedirs(os.path.join(destination_images, "val"), exist_ok=True)
     os.makedirs(os.path.join(destination_labels, "train_original"), exist_ok=True)
