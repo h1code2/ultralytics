@@ -28,6 +28,8 @@ def CollateDataset(
         ext = os.path.splitext(image_name)[-1]
         label_name = image_name.replace(ext, ".txt")
         label_path = os.path.join(label_dir, label_name)
+        if not os.path.exists(label_path):
+            continue
         # 增加自定义逻辑
         if not Path(label_path).read_text().strip():
             # print(f"图片({image_path})还未标注跳过")
