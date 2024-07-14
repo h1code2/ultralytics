@@ -1,0 +1,13 @@
+train: /Users/h1code2/PycharmProjects/ultralytics/datasets/train/images
+val: /Users/h1code2/PycharmProjects/ultralytics/datasets/valid/images
+test: /Users/h1code2/PycharmProjects/ultralytics/datasets/test/images
+
+nc: 2
+names: [ 'renwu', 'wuti' ]
+
+roboflow:
+  workspace: h1code2
+  project: wechat-t1.0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/h1code2/wechat-t1.0/dataset/1
